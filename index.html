@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Include Bootstrap?? and CSS. I think this is how I do it... -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    
+    <!-- Let's get rolling on META -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Simple page titling -->
+    <title>Chris Schenkhuizen</title>
+</head>
+<body>
+    <div class="my-header">
+        <div id="welcome-nav" class="header-element">
+            <a class="header-button" href="#title-page">Welcome</a>
+        </div>
+        <div id="skills-nav" class="header-element">
+            <a class="header-button" href="#skills-page">Skills</a>
+        </div>
+        <div id="classes-nav" class="header-element header-last-element">
+            <a class="header-button" href="#classes-page">Classes Taken</a>
+        </div>
+    </div>
+    <div class="my-footer">
+        <div id="footer-info">
+            <p class="small-text bottom-align">This website was created by Chris Schenkhuizen.</p>
+            <div id="resume-link" class="footer-element">
+                <span class="vertical-center"><a class="default-text" href="resume.html" id="footer-resume-link">My Resume</a></span>
+            </div>
+        </div>
+    </div>
+    <div id="title-page">
+        <div id="title-caption">
+            <h1 class="">Chris Schenkhuizen</h1>
+            <h4 class="">Software Developer and Game Enthusiast</h4>
+        </div>
+        <div id="quick-access-buttons">
+            <button class="nice-looking-button" onclick="location.href='resume.html';">My Resume</button>
+        </div>
+        <div class="bottom-static-link">
+            <div class="container">
+                <div class="row">
+                        <div class="col-sm">
+                            <a class="profile-link" href="https://github.com/cschenkh"> <img src="resources/images/GitHub-Mark-64px.png" width="48px" height="48px"> </a>
+                        </div>
+                        <div class="col-sm">
+                            <a class="profile-link" href="https://gitlab.com/Hextaine"> <img src="resources/images/gitlab_thumbnail.jpg" width="48px" height="48px"> </a>
+                        </div>
+                        <div class="col-sm">
+                            <a class="profile-link" href="https://www.linkedin.com/in/chris-schenkhuizen"> <img src="resources/images/linkedin_thumbnail.jpg" width="48px" height="48px"> </a>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="skills-page">
+        <div class="skills-body">
+            <h1 class="page-opener">Skills</h1>
+            <div class="card-element">
+                <h4 class="centered topic-title">Soft Skills</h4>
+                <ul class="left-pad-20">
+                    <li class="default-text">Concise and Clear Communication </li>
+                    <li class="default-text">Time Management</li>
+                    <li class="default-text">Leadership</li>
+                    <li class="default-text">Adaptablity and Ablity to Improvise</li>
+                    <li class="default-text">Quick and Self-Motivated Learner</li>
+                </ul>
+            </div>
+            <div class="card-element">
+                <h4 class="centered topic-title">Known Languages:</h4>
+                <ul class="left-pad-20">
+                    <li class="default-text">Java   -- 6 years</li>
+                    <li class="default-text">C/C++  -- 3 years</li>
+                    <li class="default-text">Python -- 2 years</li>
+                    <li class="default-text">HTML, CSS, JavaScript, and pHp -- 1 year</li>
+                    <li class="default-text">PL/SQL -- 1 year</li>
+                </ul>
+            </div>
+            <div class="card-element">
+                <h4 class="centered topic-title">Code Productivity Tools</h4>
+                <ul class="left-pad-20">
+                    <li class="default-text">git (GitLab, Github, Bitbucket)</li>
+                    <li class="default-text">SQL</li>
+                    <li class="default-text">Maven 3</li>
+                    <li class="default-text">Trello</li>
+                    <li class="default-text">Docker</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="classes-page">
+        <div id="classes-body">
+            <h1 class="page-opener">Classes Taken</h1>
+            <div class="card-element">
+                <h4 class="centered topic-title">CS18000</h4>
+                <p class="default-text padded-md">This object-oriented programming design class taught the basics of the Java programming language as well as the basics of object oriented design. Topics covered included inheritance, polymorphism, interfaces, scope, arrays/arraylists, and recursion.</p>
+            </div>
+            <div class="card-element">
+                <h4 class="centered topic-title">CS18200</h4>
+                <p class="default-text padded-md">The Foundations of Computer Science focused on the non-programming aspects of computer science including such topics as boolean algebra, De Morgan's Laws, set theory, run time approximation, Big-O notation, and recurrence in algorithms</p>
+            </div>
+            <div class="card-element">
+                <h4 class="centered topic-title">CS24000</h4>
+                <p class="default-text padded-md">This class focused on the basics of funtional programming today using languages such as C and C++. Topics covered included memory manipulation, the difference between functional and object-oriented programming, creation of common data structures (linked list, stack, queue, hash set/map), and bit / data manipulation in low-level environments.</p>
+            </div>
+            <div class="card-element">
+                <h4 class="centered topic-title">CS25000</h4>
+                <p class="default-text padded-md">The Essentials of Computer Architecture focused on the hardware side of computer science giving reason to bit-manipulation costs, hardware limitations, and other hardware relations. In this class, students were given Raspberry Pi 3s and were given projects to create logical gates using a breadboard, model a bit-shifter circuit using a breadboard, and code various C Functions such as 'printf' in ARM assembly code</p>
+            </div>
+            <div class="card-element">
+                <h4 class="centered topic-title">CS25100</h4>
+                <p class="default-text padded-md">Data Structures and Algorithms focused on the creation of today's staples in data structures including Stacks, Queues, Hash-based data structures, and Arraylists as well as how they can be optimized. The class also focused on staple algorithms including Union-Find, Sorting, encoding/decoding, and compression/decompression.</p>
+            </div>
+            <div class="card-element">
+                <h4 class="centered topic-title">CS25200</h4>
+                <p class="default-text padded-md">Systems Programming focused on how programs run in user space as well as the OS interactions, write Bash scripting code, use RegEx, and write multi-process and multi-threaded programs, all in a linux environment.</p>
+            </div>
+            <div class="card-element">
+                <h4 class="centered topic-title">CS47100</h4>
+                <p class="default-text padded-md">Artificial Intelligence focuses as an introduction of the foundational areas of artificially intelligent programming and current techniques for builiding such systems. Topics coverd included state-space representation, heuristic searching, knowledge representation, emulated decision-making and reasoning, reasoning under uncertainty, as well as machine learning.</p>
+            </div>
+        </div>
+    </div>
+    <div id="projects-page">
+        <div id="projects-body">
+            <h1 class="page-opener">Projects</h1>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Project Name</th>
+                        <th scope="col">Project Link</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">FOURum</th>
+                        <td><a href="https://github.com/cschenkh/FOURum">https://github.com/cschenkh/FOURum</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Elementalists</th>
+                        <td><a href="https://gitlab.com/Hextaine/Elementalists">https://gitlab.com/Hextaine/Elementalists</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">The Watcher - Discord Bot</th>
+                        <td><a href="https://gitlab.com/Hextaine/DiscordBot-TheWatcher">https://gitlab.com/Hextaine/DiscordBot-TheWatcher</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- REQUIRED ORDER: jQuery, Popper.js, Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
